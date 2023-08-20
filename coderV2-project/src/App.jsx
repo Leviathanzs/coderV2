@@ -5,6 +5,9 @@ import FooterComponent from './components/FooterComponent'
 
 import HomePage from './pages/HomePage'
 import KelasPage from './pages/KelasPage'
+import TestimonialPage from './pages/TestimonialPage'
+import SyaratKeten from './pages/SyaratKeten'
+import FaqPage from './pages/FaqPage'
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <Routes>
         <Route path='/' Component={HomePage} />
         <Route path='/kelas' Component={KelasPage} />
+        <Route path='./testimonial' Component={{TestimonialPage}} />
+        <Route path='./faq' Component={FaqPage} />
+        <Route path='./sk' Component={SyaratKeten} />
       </Routes>
       
       <FooterComponent />
