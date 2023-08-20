@@ -17,9 +17,9 @@ function App() {
       <Routes>
         <Route path='/' Component={HomePage} />
         <Route path='/kelas' Component={KelasPage} />
-        <Route path='./testimonial' Component={{TestimonialPage}} />
+        <Route path='./testimonial' Component={TestimonialPage} />
         <Route path='./faq' Component={FaqPage} />
-        <Route path='./sk' Component={SyaratKeten} />
+        <Route path='./syaratketen' Component={SyaratKeten} />
       </Routes>
       
       <FooterComponent />

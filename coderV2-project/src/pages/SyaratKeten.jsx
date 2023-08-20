@@ -1,5 +1,7 @@
 const SyaratKeten = () => {
-    return <h1>Syarat & Ketentuan Page</h1>
+    return (
+        <p>Syarat & Ketentuan Page</p>
+    )
 }
 
 export default SyaratKeten

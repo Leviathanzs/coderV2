@@ -1,5 +1,5 @@
 const TestimonialPage = () => {
-    return <h1>Testimonial Page</h1>
+    return <p>Testimonial Page</p>
 }
 
 export default TestimonialPage

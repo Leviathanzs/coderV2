@@ -1,5 +1,5 @@
 const FaqPage = () => {
-    return <h1>FaqPage</h1>
+    return <p>FaqPage</p>
 }
 
 export default FaqPage
