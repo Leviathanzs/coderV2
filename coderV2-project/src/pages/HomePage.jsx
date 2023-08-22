@@ -2,6 +2,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 import heroImage from "../assets/img/hero.png"
 import {kelasTerbaru, dataSwiper} from "../data/index"
 import {useNavigate} from 'react-router-dom'
+import FaqComponent from '../components/FaqComponent'
 
 //swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -123,6 +124,9 @@ let navigate = useNavigate()
                             </Row>
                         </Container>
             </div>
+            {/*faq section */}
+            <FaqComponent />
+            {/*faq section */}
         </div>
 
     )
