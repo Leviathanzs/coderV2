@@ -1,8 +1,10 @@
 import {Container, Row, Col} from 'react-bootstrap'
 import {semuaKelas} from '../data/index'
+import FaqComponent from '../components/FaqComponent'
 
 const KelasPage = () => {
     return (
+        <>
         <section className="kelas min-vh-100">
             <Container>
                 <Row>
@@ -32,8 +34,10 @@ const KelasPage = () => {
                     )
                 })}
                 </Row>
-            </Container>
-        </section>
+                </Container>
+                </section>
+                    <FaqComponent />
+                </>
     )
 }
 
