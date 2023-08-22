@@ -25,7 +25,8 @@ let navigate = useNavigate()
                         <Col lg="6">
                             <h1 className="mb-4">Temukan <br /> <span>Bakat Kreatifmu</span> <br /> Bersama Kami!</h1>
                             <p className="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, tempore. Ad, fuga eveniet.</p>
-                            <button className="btn btn-danger btn-lg rounded-1 me-2 mb-xs-0 mb-2">Lihat Kelas</button>
+                            <button className="btn btn-danger btn-lg rounded-1 me-2 mb-xs-0 mb-2"
+                            onClick={() => navigate("/kelas")}>Lihat Kelas</button>
                             <button className="btn btn-outline-danger btn-lg rounded-1 mb-xs-0 mb-2">Lihat Promo</button>
                         </Col>
                         <Col lg="6" className="pt-lg-0 pt-5">
